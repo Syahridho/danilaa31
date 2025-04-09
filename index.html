@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DN iStore - iPhone Specialist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100 font-sans">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-lg">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="flex justify-between">
+          <div class="flex space-x-7">
+            <div class="flex items-center py-4">
+              <span class="font-semibold text-2xl text-gray-900"
+                >DN iStore</span
+              >
+            </div>
+          </div>
+          <div class="hidden md:flex items-center space-x-3">
+            <a
+              href="#home"
+              class="py-4 px-2 text-gray-900 font-semibold hover:text-blue-500 transition duration-300"
+              >Home</a
+            >
+            <a
+              href="#products"
+              class="py-4 px-2 text-gray-900 font-semibold hover:text-blue-500 transition duration-300"
+              >Products</a
+            >
+            <a
+              href="#location"
+              class="py-4 px-2 text-gray-900 font-semibold hover:text-blue-500 transition duration-300"
+              >Location</a
+            >
+            <a
+              href="#about"
+              class="py-4 px-2 text-gray-900 font-semibold hover:text-blue-500 transition duration-300"
+              >About</a
+            >
+          </div>
+          <div class="md:hidden flex items-center">
+            <button class="outline-none mobile-menu-button">
+              <svg
+                class="w-6 h-6 text-gray-500"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path d="M4 6h16M4 12h16M4 18h16"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="hidden mobile-menu">
+        <ul class="pt-2 pb-4">
+          <li>
+            <a
+              href="#home"
+              class="block text-sm px-2 py-4 text-white bg-blue-500 font-semibold"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#products"
+              class="block text-sm px-2 py-4 hover:bg-blue-500 transition duration-300 hover:text-white"
+              >Products</a
+            >
+          </li>
+          <li>
+            <a
+              href="#location"
+              class="block text-sm px-2 py-4 hover:bg-blue-500 transition duration-300 hover:text-white"
+              >Location</a
+            >
+          </li>
+          <li>
+            <a
+              href="#about"
+              class="block text-sm px-2 py-4 hover:bg-blue-500 transition duration-300 hover:text-white"
+              >About</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="py-10">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row items-center">
+          <div class="md:w-1/2 mb-8 md:mb-0">
+            <h1 class="text-4xl font-bold text-gray-900 mb-4">
+              Welcome to DN iStore
+            </h1>
+            <p class="text-lg text-gray-700 mb-6">
+              Your trusted destination for premium Apple products in Pekanbaru
+            </p>
+            <a
+              href="#products"
+              class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300"
+            >
+              Explore Our Products
+            </a>
+          </div>
+          <div class="md:w-1/2">
+            <img
+              src="./gambar/Capture4.PNG"
+              alt="iPhone Showcase"
+              class="rounded-lg shadow-xl"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section id="products" class="py-10 bg-white">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center text-gray-900 mb-8">
+          Our Featured Products
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Product Card 1 -->
+          <div
+            class="bg-white rounded-lg shadow-md overflow-hidden transition duration-300 hover:shadow-xl"
+          >
+            <img
+              src="./gambar/Capturez.PNG"
+              alt="iPhone 13"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-gray-900 mb-2">iPhone 13</h3>
+              <p class="text-gray-700 mb-4">Available in multiple colors</p>
+              <div class="flex justify-between items-center">
+                <button
+                  class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded transition duration-300"
+                >
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Card 2 -->
+          <div
+            class="bg-white rounded-lg shadow-md overflow-hidden transition duration-300 hover:shadow-xl"
+          >
+            <img
+              src="./gambar/Capture1.PNG"
+              alt="iPhone 12"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-gray-900 mb-2">iPhone 12</h3>
+              <p class="text-gray-700 mb-4">Available in multiple colors</p>
+              <div class="flex justify-between items-center">
+                <button
+                  class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded transition duration-300"
+                >
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Card 3 -->
+          <div
+            class="bg-white rounded-lg shadow-md overflow-hidden transition duration-300 hover:shadow-xl"
+          >
+            <img
+              src="./gambar/Capture2.PNG"
+              alt="iPhone 11"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-gray-900 mb-2">iPhone 11</h3>
+              <p class="text-gray-700 mb-4">Available in multiple colors</p>
+              <div class="flex justify-between items-center">
+                <button
+                  class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded transition duration-300"
+                >
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="py-10 bg-gray-100">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center text-gray-900 mb-8">
+          Visit Our Store
+        </h2>
+        <div
+          class="flex flex-col md:flex-row items-center space-y-8 md:space-y-0"
+        >
+          <div class="md:w-1/2 pr-0 md:pr-8">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <h3 class="text-xl font-bold text-gray-900 mb-4">
+                Store Location
+              </h3>
+              <p class="text-gray-700 mb-2">
+                <i class="fas fa-map-marker-alt mr-2 text-blue-500"></i>
+                Jl. Rindang No.17c, Tengkerang Labuai, Kec. Bukit Raya, Kota
+                Pekanbaru, Riau 28126
+              </p>
+              <p class="text-gray-700 mb-2">
+                <i class="fas fa-clock mr-2 text-blue-500"></i>
+                Open Everyday: 9:00 AM - 8:00 PM
+              </p>
+              <!-- <p class="text-gray-700">
+                <i class="fas fa-phone-alt mr-2 text-blue-500"></i>
+                +62 812 3456 7890
+              </p> -->
+              <div class="mt-6 flex space-x-4">
+                <a
+                  href="#"
+                  class="text-blue-500 hover:text-blue-700 transition duration-300"
+                >
+                  <i class="fab fa-whatsapp text-2xl"></i>
+                </a>
+                <a
+                  href="#"
+                  class="text-blue-500 hover:text-blue-700 transition duration-300"
+                >
+                  <i class="fab fa-instagram text-2xl"></i>
+                </a>
+                <a
+                  href="#"
+                  class="text-blue-500 hover:text-blue-700 transition duration-300"
+                >
+                  <i class="fab fa-facebook-f text-2xl"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="md:w-1/2">
+            <img
+              src="./gambar/Capture4.PNG"
+              alt="Store Front"
+              class="rounded-lg shadow-md"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-10 bg-white">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center text-gray-900 mb-8">
+          About DN iStore
+        </h2>
+        <div
+          class="flex flex-col md:flex-row items-center space-y-8 md:space-y-0"
+        >
+          <div class="md:w-1/2 md:pr-8">
+            <img
+              src="/gambar/Capture.PNG"
+              alt="Store Interior"
+              class="rounded-lg shadow-md"
+            />
+          </div>
+          <div class="md:w-1/2">
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+              <h3 class="text-xl font-bold text-gray-900 mb-4">Our Story</h3>
+              <p class="text-gray-700 mb-4">
+                Since 2018, DN iStore has been Pekanbaru's premier destination
+                for Apple products. We pride ourselves on providing authentic
+                devices with excellent customer service and support.
+              </p>
+              <h3 class="text-xl font-bold text-gray-900 mb-4">
+                Why Choose Us?
+              </h3>
+              <ul class="list-disc list-inside text-gray-700 mb-4">
+                <li>Authorized Apple product reseller</li>
+                <li>Expert technical support and advice</li>
+                <li>Comprehensive warranty coverage</li>
+                <li>Flexible payment options</li>
+                <li>After-sales service and support</li>
+              </ul>
+              <p class="text-gray-700">
+                Visit us today to experience the DN iStore difference!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <div class="mb-4 md:mb-0">
+            <h3 class="text-2xl font-bold">DN iStore</h3>
+            <p class="text-gray-400">
+              Your trusted iPhone specialist in Pekanbaru
+            </p>
+          </div>
+          <div class="flex space-x-4">
+            <a
+              href="#"
+              class="text-gray-400 hover:text-white transition duration-300"
+            >
+              <i class="fab fa-facebook-f text-xl"></i>
+            </a>
+            <a
+              href="#"
+              class="text-gray-400 hover:text-white transition duration-300"
+            >
+              <i class="fab fa-instagram text-xl"></i>
+            </a>
+            <a
+              href="#"
+              class="text-gray-400 hover:text-white transition duration-300"
+            >
+              <i class="fab fa-whatsapp text-xl"></i>
+            </a>
+          </div>
+        </div>
+        <hr class="border-gray-800 my-6" />
+        <div class="text-center text-gray-400 text-sm">
+          &copy; 2025 DN iStore. All rights reserved.
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile menu toggle
+      const btn = document.querySelector("button.mobile-menu-button");
+      const menu = document.querySelector(".mobile-menu");
+
+      btn.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
